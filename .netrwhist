@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/YiBan'
+let g:netrw_dirhist_2='/Users/YiBan/.vim/colors/molokai'
+let g:netrw_dirhist_3='/Users/YiBan/Desktop/mySrc/myTest/jsTest'
