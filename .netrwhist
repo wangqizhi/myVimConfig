@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/YiBan'
 let g:netrw_dirhist_2='/Users/YiBan/.vim/colors/molokai'
 let g:netrw_dirhist_3='/Users/YiBan/Desktop/mySrc/myTest/jsTest'
 let g:netrw_dirhist_4='/Users/YiBan/.vim/bundle/nerdtree/doc'
 let g:netrw_dirhist_5='/Users/YiBan/.vim/colors'
+let g:netrw_dirhist_6='/Users/YiBan/Desktop/mySrc/myTest/pyTest'
+let g:netrw_dirhist_7='/Users/YiBan/Desktop/mySrc/myTest/jsTest'
+let g:netrw_dirhist_8='/Users/YiBan/Desktop'
