@@ -1,6 +1,9 @@
 "启用pathogen进行插件管理
 execute pathogen#infect()
 
+"设置4个空格1个tab
+set ts=4 
+
 "启用配色
 set t_Co=256
 colorscheme molokai
@@ -11,6 +14,10 @@ syntax on
 "NERDTree插件设置
 "open a NERDTree automatically when vim starts up
 autocmd vimenter * NERDTree
+"focus on file
+wincmd w
+autocmd vimenter * wincmd w
+
 "open a NERDTree automatically when vim starts up if no files were specified
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -22,5 +29,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 let g:NERDTreeDirArrows = 1
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
-"put tree left 
-let NERDTreeWinPos="left"
+"put tree right 
+let NERDTreeWinPos="right"
